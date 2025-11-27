@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Antony Mwendwa</title>
+  <link rel="stylesheet" href="birthday.css">
+</head>
+<body>
+<!-- ------------------- BOOT SCREEN ------------------- -->
+<div id="bootScreen">
+  Initializing system…<br>
+  Loading birthday protocols…<br>
+  Scanning user identity…<br>
+  <b>Welcome, Antony Mwendwa.</b><br>
+  Preparing interface…<br>
+</div>
+<!-- ------------------- MAIN CONTENT ------------------- -->
+<div id="mainContent">
+  <h1>🚀 Happy Birthday, Antony Mwendwa!</h1>
+  <button onclick="speak()">Play AI Voice Greeting 🤖</button>
+  <button onclick="startConfetti()">Confetti ⚡</button>
+  <button onclick="playMusic()">Play Tech Music 🎵</button>
+  <button onclick="toggleTerminal()">Terminal Mode 💻</button>
+  <h2 id="voiceMessage">"Happy Birthday, Antony Mwendwa."</h2>
+  <!-- HOLOGRAM GALLERY -->
+  <h2>🔷 Hologram Photo Gallery</h2>
+  <div class="gallery">
+    <div class="holo" style="background-image:url('https://i.imgur.com/1bX5QH6.jpeg');"></div>
+    <div class="holo" style="background-image:url('https://i.imgur.com/kH6o0RJ.jpeg');"></div>
+    <div class="holo" style="background-image:url('https://i.imgur.com/O7YJw3Q.jpeg');"></div>
+  </div>
+  <!-- 3D CUBE -->
+  <h2>🔷 3D Rotating Message Cube</h2>
+  <div class="cubeContainer">
+    <div class="cube">
+      <div class="front">You Are Amazing</div>
+      <div class="back">Keep Building</div>
+      <div class="right">Tech Genius</div>
+      <div class="left">Dream Big</div>
+      <div class="top">Happy Birthday</div>
+      <div class="bottom">Antony!</div>
+    </div>
+  </div>
+  <!-- QUIZ -->
+  <div id="quizSection">
+    <h2>🔷 Tech Quiz About Antony</h2>
+    <p>What is Antony’s favorite tech gadget?</p>
+    <input id="q1" placeholder="Enter answer…">
+    <button onclick="checkQuiz()">Submit</button>
+    <p id="quizResult"></p>
+  </div>
+  <!-- GUEST BOOK -->
+  <h2>🔷 Leave a Birthday Message</h2>
+  <input id="guestInput" placeholder="Type your message…" style="width:60%; padding:10px;">
+  <button onclick="addMessage()">Post</button>
+  <div id="guestMessages"></div>
+  <!-- TERMINAL MODE -->
+  <div id="terminal">
+    <h3>TERMINAL MODE</h3>
+    <p>system.online = true;</p>
+    <p>user = "Antony Mwendwa";</p>
+    <p>status = "Celebrating Birthday";</p>
+  </div>
+</div>
+  <script src="birthday.js"></script>
+</body>
+</html>
